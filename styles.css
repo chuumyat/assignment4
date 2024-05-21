@@ -1,0 +1,88 @@
+div.img1 {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.group{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 100px;
+}
+.product {
+    width: 300px;
+    height: 500px;
+    border-radius: 10 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.icon {
+    display: flex;
+    padding-left: 70px;
+}
+
+.btn1 {
+    width: 100%;
+    height:50px ;
+    background-color: rgb(12, 147, 200);
+    color: white;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+}
+.btn2 {
+    width: 100%;
+    height:50px ;
+    background-color: rgb(26, 26, 127);
+    color: white;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.btn3 {
+    width: 100%;
+    height:50px ;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.btn4 {
+    width: 100%;
+    height:50px ;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+}
+.card-footer button {
+    background-color: blue;
+    color: white;
+    display: flex;
+    width: 100%;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    padding: 1rem;
+}
+.card-footer{
+    text-align: center;
+    width: 100%;height:10%;
+}
+
+img{
+    display: flex;
+    width:250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+    
+}
